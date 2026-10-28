@@ -213,5 +213,6 @@ assert.match(
   'an empty draft dims only the icon, not the hover circle',
 );
 assert.doesNotMatch(source, /disabled:\s*empty/, 'an empty draft stays hoverable instead of using the disabled attribute');
+assert.match(source, /\.aip-meta\s*\{[^}]*margin-top:\s*8px/, 'the context line keeps its distance from the header');
 
 console.log('all client smoke checks passed');

@@ -303,7 +303,10 @@ window.__ModuleLoader__.load({
 }
 .aip-head-icon { color: var(--dsw-alias-brand-primary); display: inline-flex; }
 .aip-head h2 { margin: 0; font-size: 14px; font-weight: 600; flex: 1; }
-.aip-meta { display: block; color: var(--dsw-alias-label-secondary); font-size: 12px; padding: 0 16px 8px; }
+.aip-meta {
+  display: block; color: var(--dsw-alias-label-secondary); font-size: 12px;
+  padding: 0 16px 8px; margin-top: 8px;
+}
 .aip-close {
   width: 24px; height: 24px; display: inline-flex; align-items: center; justify-content: center;
   border: none; border-radius: 6px; background: transparent; color: var(--dsw-alias-label-secondary); cursor: pointer;
