@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Prompt refinement",
+    "description": "Rewrite the composer prompt with this conversation's context, keep your text until you adopt it, and step back before the last turn."
+  }
+}

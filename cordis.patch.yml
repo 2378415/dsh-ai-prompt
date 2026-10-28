@@ -1,0 +1,7 @@
+# dsh-ai-prompt bundle patch: one host row serving the refinement API.
+# The row only activates where a web server exists; the model, session query
+# and default-model services are looked up softly at request time, so the row
+# stays active in any profile that has a Web carrier.
+- insert:
+    - id: ai-prompt
+      name: 'dsh-ai-prompt'
